@@ -1,6 +1,6 @@
 # Imports
 from rest_framework.views import APIView
-from Sunify_Predictions import predictions
+from Sunify_Prediction import predictions
 from  rest_framework.response import Response
 
 
