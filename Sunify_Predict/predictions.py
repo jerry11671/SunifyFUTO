@@ -13,7 +13,7 @@ import csv
 
 def prediction():
     
-    with open("Sunify_Prediction\sunifyfuto-default-rtdb-export.json", "r", encoding="utf-8") as f:
+    with open("Sunify_Predict\sunifyfuto-default-rtdb-export.json", "r", encoding="utf-8") as f:
         dict_ldr = json.load(f)
         timestamp_list = []
         value_list = []
